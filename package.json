@@ -1,14 +1,58 @@
 {
-  "name": "react-native-image-picker",
-  "description": "A React Native module that allows you to use native UI to select media from the device library or directly from the camera",
-  "version": "0.22.13",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/marcshilling/react-native-image-picker.git"
+  "_args": [
+    [
+      {
+        "raw": "react-native-image-picker@^0.18.17",
+        "scope": null,
+        "escapedName": "react-native-image-picker",
+        "name": "react-native-image-picker",
+        "rawSpec": "^0.18.17",
+        "spec": ">=0.18.17 <0.19.0",
+        "type": "range"
+      },
+      "/Users/pingbai/Desktop/XYHealth/企业端RN版/XYHealth"
+    ]
+  ],
+  "_from": "react-native-image-picker@>=0.18.17 <0.19.0",
+  "_id": "react-native-image-picker@0.18.17",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-image-picker",
+  "_nodeVersion": "5.2.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-native-image-picker-0.18.17.tgz_1463605727129_0.6562804104760289"
   },
-  "nativePackage": true,
-  "author": "Marc Shilling (marcshilling)",
+  "_npmUser": {
+    "name": "marcshilling",
+    "email": "marcshilling@gmail.com"
+  },
+  "_npmVersion": "3.8.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-image-picker@^0.18.17",
+    "scope": null,
+    "escapedName": "react-native-image-picker",
+    "name": "react-native-image-picker",
+    "rawSpec": "^0.18.17",
+    "spec": ">=0.18.17 <0.19.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-image-picker/-/react-native-image-picker-0.18.17.tgz",
+  "_shasum": "c7cba3281421fdeb92e725e287bf53d0f4001114",
+  "_shrinkwrap": null,
+  "_spec": "react-native-image-picker@^0.18.17",
+  "_where": "/Users/pingbai/Desktop/XYHealth/企业端RN版/XYHealth",
+  "author": {
+    "name": "Marc Shilling",
+    "url": "marcshilling"
+  },
+  "bugs": {
+    "url": "https://github.com/marcshilling/react-native-image-picker/issues"
+  },
   "contributors": [
     {
       "name": "Matheus Santos",
@@ -19,6 +63,18 @@
       "email": "yfuks@student.42.fr"
     }
   ],
+  "dependencies": {},
+  "description": "A React Native module that allows you to use native UI to select media from the device library or directly from the camera",
+  "devDependencies": {
+    "react-native": "^0.21.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "c7cba3281421fdeb92e725e287bf53d0f4001114",
+    "tarball": "https://registry.npmjs.org/react-native-image-picker/-/react-native-image-picker-0.18.17.tgz"
+  },
+  "gitHead": "2da7c024e1a8de32d6e0a517375a923582824dcf",
+  "homepage": "https://github.com/marcshilling/react-native-image-picker#readme",
   "keywords": [
     "react-native",
     "react-native-image-picker",
@@ -27,7 +83,28 @@
     "image",
     "picker"
   ],
-  "scripts": {
-    "prepublish": "rm -rf android/build Example/android/build Example/android/app/build"
-  }
+  "maintainers": [
+    {
+      "name": "marcshilling",
+      "email": "marcshilling@gmail.com"
+    },
+    {
+      "name": "vorjdux",
+      "email": "vorj.dux@gmail.com"
+    },
+    {
+      "name": "yfuks",
+      "email": "yoannfuks@hotmail.fr"
+    }
+  ],
+  "name": "react-native-image-picker",
+  "nativePackage": true,
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcshilling/react-native-image-picker.git"
+  },
+  "scripts": {},
+  "version": "0.18.17"
 }

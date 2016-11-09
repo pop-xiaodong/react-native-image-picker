@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		014A3B6A1C6CF34500B6D375 /* ImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 014A3B691C6CF34500B6D375 /* ImagePickerManager.m */; };
+		2B947ADC1DD2FCDA00C61041 /* PictureActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B947ADB1DD2FCDA00C61041 /* PictureActionSheet.m */; };
+		2B947ADF1DD2FE5500C61041 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B947ADE1DD2FE5500C61041 /* UIView+Ext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,10 @@
 		014A3B5C1C6CF33500B6D375 /* libRNImagePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNImagePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		014A3B681C6CF34500B6D375 /* ImagePickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerManager.h; sourceTree = "<group>"; };
 		014A3B691C6CF34500B6D375 /* ImagePickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerManager.m; sourceTree = "<group>"; };
+		2B947ADA1DD2FCDA00C61041 /* PictureActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureActionSheet.h; sourceTree = "<group>"; };
+		2B947ADB1DD2FCDA00C61041 /* PictureActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureActionSheet.m; sourceTree = "<group>"; };
+		2B947ADD1DD2FE5500C61041 /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ext.h"; sourceTree = "<group>"; };
+		2B947ADE1DD2FE5500C61041 /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,10 @@
 			children = (
 				014A3B681C6CF34500B6D375 /* ImagePickerManager.h */,
 				014A3B691C6CF34500B6D375 /* ImagePickerManager.m */,
+				2B947ADA1DD2FCDA00C61041 /* PictureActionSheet.h */,
+				2B947ADB1DD2FCDA00C61041 /* PictureActionSheet.m */,
+				2B947ADD1DD2FE5500C61041 /* UIView+Ext.h */,
+				2B947ADE1DD2FE5500C61041 /* UIView+Ext.m */,
 				014A3B5D1C6CF33500B6D375 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,7 +122,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B947ADC1DD2FCDA00C61041 /* PictureActionSheet.m in Sources */,
 				014A3B6A1C6CF34500B6D375 /* ImagePickerManager.m in Sources */,
+				2B947ADF1DD2FE5500C61041 /* UIView+Ext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +167,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -192,7 +204,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -206,6 +218,7 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../Example/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -220,6 +233,7 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 					"$(SRCROOT)/../Example/node_modules/react-native/React/**",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
